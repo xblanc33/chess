@@ -1,0 +1,18 @@
+import FrameworkItf from "../domain/FrameworkItf";
+import Game from "../domain/Game";
+import * as mongo from 'mongo';
+
+export default class FrameworkMongo implements FrameworkItf  {
+
+    save(game : Game) {
+        //Write into Mongo
+    }
+
+    read(id : number) : Game {
+        //Read in mongo
+        return new Game(id);
+    }
+
+
+
+}
