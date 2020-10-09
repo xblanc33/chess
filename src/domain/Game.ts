@@ -18,7 +18,7 @@ export default class Game {
                 this._board.set(l,p);
             })
         } else {
-            //TODO
+            //TODO 
         }
     }
 
@@ -30,6 +30,9 @@ export default class Game {
         console.log('board:',boardCopy);
         return boardCopy;
     }
+
+    // move(from : Location, to : Location) {
+    // }
 
 
 
